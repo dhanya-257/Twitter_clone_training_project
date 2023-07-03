@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Twitter Clone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+
+    <!--Login Form-->
+ <div class="login-form">
+    <img src="images/logo.png" class="logo">
+    <h2>Sign in to Twitter</h2>
+    <button><img src="images/google.png"> Sign in with Google</button>
+    <button><img src="images/apple.png"> Sign in with Apple</button>
+    <hr>
+    <span>or</span>
+     <form action="#" method="post" onsubmit="return validateLogin()">
+        <input type="text" placeholder="Email" id="email">
+        <input type="password" placeholder="Password" id="password">
+        <button >Login</button>
+    </form>
+     <p>Don't have an account yet? <a href="#" onclick="toggleForm()">Sign Up</a></p>
+ </div>
+
+    <!--Registration Form-->
+    <div id="registration-form">
+        <img src="images/logo.png" class="logo">
+        <h2>Registration</h2>
+        <form action="#" method="post" onsubmit="return validateRegistration()">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email_id" name="email" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="pass" name="password" required>
+
+            <input type="submit" value="Sign Up">
+        </form>
+        <p>Already have an account? <a href="#" onclick="toggleForm()">Log In</a></p>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+
+</html>

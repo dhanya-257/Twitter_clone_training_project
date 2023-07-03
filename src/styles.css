@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+ background: #262a2f;
+}
+.login-form{
+    background: #fff;
+    padding: 30px 120px;
+    width: 550px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    border-radius: 5px;
+}
+
+.logo{
+    width: 30px;
+    margin-bottom: 20px;
+}
+.login-form h2{
+    margin-bottom: 20px;
+}
+.login-form button img{
+    width: 18px;
+    margin-right: 10px;
+}
+.login-form button{
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    border-radius: 30px;
+    background: transparent;
+    border: 1px solid #999;
+    font-weight: 500;
+    cursor: pointer;
+}
+.login-form hr{
+    border: 0;
+    height: 1px;
+    background: #c2c2c2;
+    margin: 5px;
+}
+.login-form span{
+    display: block;
+    width: 40px;
+    margin: auto;
+    background: #fff;
+    font-size: 14px;
+    margin-top: -16px;
+}
+.login-form input{
+    width: 100%;
+    background: transparent;
+    border: 1px solid #999;
+    outline: 0;
+    padding: 15px 10px;
+    border-radius: 4px;
+    margin: 10px 0;
+}
+::placeholder{
+    font-weight: 500;
+    color: #333;
+}
+.login-form form button{
+    background: #000;
+    color: #fff;
+    border: 0;
+    margin-bottom: 15px;
+}
+.login-form p{
+    text-align: left;
+    font-size: 14px;
+    color: #555;
+    margin: 40px 0 50px;
+}
+.login-form p a{
+    text-decoration: none;
+    color: #359cf0;
+}
+
+#registration-form{
+    background: #fff;
+    padding: 30px 120px;
+    width: 550px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    border-radius: 5px;
+
+}
+
+h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    text-align: left;
+}
+
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    background: transparent;
+    border: 1px solid #999;
+    outline: 0;
+    padding: 15px 10px;
+    border-radius: 4px;
+    margin: 10px 0;
+
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #0c0c0c;
+    color: white;
+    cursor: pointer;
+    border-radius: 30px;
+
+}
+
+#registration-form p{
+    text-align: left;
+    font-size: 14px;
+    color: #555;
+    margin: 40px 0 50px;
+}
+#registration-form p a{
+    text-decoration: none;
+    color: #359cf0;
+}
+
